@@ -38,6 +38,8 @@ spec:
               secretKeyRef:
                 name: mongodb-secret
                 key: password
+
+
         ports:
         - containerPort: 8080
         livenessProbe:
